@@ -2,8 +2,7 @@
 
 [![Powered by Immowelt](https://img.shields.io/badge/powered%20by-immowelt-yellow.svg?colorB=ffb200)](https://stackshare.io/immowelt-group/)
 [![Build Status](https://travis-ci.org/ImmoweltGroup/eslint-config-immowelt-es5.svg?branch=master)](https://travis-ci.org/ImmoweltGroup/eslint-config-immowelt-es5)
-[![Dependency Status](https://david-dm.org/ImmoweltGroup/eslint-config-immowelt-es5.svg)](https://david-dm.org/ImmoweltGroup/eslint-config-immowelt-es5)
-[![devDependency Status](https://david-dm.org/ImmoweltGroup/eslint-config-immowelt-es5/dev-status.svg)](https://david-dm.org/ImmoweltGroup/eslint-config-immowelt-es5#info=devDependencies&view=table)
+[![devDependencies Status](https://david-dm.org/ImmoweltGroup/eslint-config-immowelt-es5/dev-status.svg)](https://david-dm.org/ImmoweltGroup/eslint-config-immowelt-es5?type=dev)
 [![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://renovateapp.com/)
 
 This package servers as the basis for the JavaScript standards of the Immowelt GmbH.
