@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-immowelt-es5",
+  "name": "@immowelt/eslint-config-immowelt-es5",
   "version": "0.0.0",
   "description": "JavaScript Standard Style For Immowelt ES5 Projects - ESLint Shareable Config",
   "main": "index.js",
@@ -21,11 +21,20 @@
   ],
   "scripts": {
     "lint": "eslint \"src/**/*.js\"",
-    "test": "jest"
+    "test": "jest",
+    "release": "semantic-release pre && npm publish --access=public && semantic-release post"
+  },
+  "release": {
+    "analyzeCommits": "@inkdpixels/commit-analyzer",
+    "generateNotes": "@inkdpixels/release-notes-generator"
+  },
+  "dependencies": {
+    "eslint": "^4.17.0",
+    "eslint-plugin-jest": "^21.12.1"
   },
   "devDependencies": {
-    "eslint": "^4.17.0",
-    "eslint-plugin-jest": "^21.12.1",
+    "@inkdpixels/commit-analyzer": "^1.0.1",
+    "@inkdpixels/release-notes-generator": "^1.0.1",
     "jest": "^22.3.0"
   }
 }

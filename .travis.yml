@@ -12,6 +12,8 @@ install:
 script:
   - yarn lint
   - yarn test --coverage
+after_success:
+  - yarn run semantic-release
 branches:
   except:
     - /^v\d+\.\d+\.\d+$/
