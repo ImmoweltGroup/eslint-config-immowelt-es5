@@ -4,13 +4,6 @@ module.exports = {
     browser: true,
     jquery: true
   },
-  globals: {
-    'enquire': true,
-    'dataLayer': true,
-    '_gaq': true,
-    'TINY': true,
-    'trackSearchAgent': true
-  },
   rules: {
     'array-bracket-spacing': 'error',
     'brace-style': 'error',
