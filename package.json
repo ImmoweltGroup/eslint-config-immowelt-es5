@@ -36,6 +36,6 @@
     "@inkdpixels/commit-analyzer": "1.0.1",
     "@inkdpixels/release-notes-generator": "1.0.1",
     "jest": "22.3.0",
-    "semantic-release": "8.2.3"
+    "semantic-release": "12.4.1"
   }
 }
