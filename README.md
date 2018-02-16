@@ -33,12 +33,13 @@ Our repositories make great use of semantic-release. This tool automatically cre
 
 All commits must contain a prefix of one of the following values, e.g.
 
-Prefix	Description	Release type
-!!!	Breaking change	Major
-FEATURE	Feature	Minor
-BUGFIX	Bugfix	Patch
-SECURITY	Security change	Patch
-TASK	Other changes	No release
+| Prefix        | Description     | Release type  |
+| ------------- | --------------- | ------------- |
+| `!!!`         | Breaking change | Major         |
+| `FEATURE`     | Feature         | Minor         |
+| `BUGFIX`      | Bugfix          | Patch         |
+| `SECURITY`    | Security change | Patch         |
+| `TASK`        | Other changes   | No release    |
 
 So in case you want to submit a bugfix, you should execute git commit -m "BUGFIX: A short description of what this commit solves - solves #21" where 21 is the issue number of the bug you fix.
 
