@@ -1,6 +1,6 @@
 {
   "name": "@immowelt/eslint-config-immowelt-es5",
-  "version": "0.0.0",
+  "version": "0.0.0-development",
   "description": "JavaScript Standard Style For Immowelt ES5 Projects - ESLint Shareable Config",
   "main": "index.js",
   "author": "Immonet dev team <aegaeon@immonet.de> (https://www.immowelt.de)",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ImmoweltGroup/eslint-config-immowelt-es5.git"
+    "url": "https://github.com/ImmoweltGroup/eslint-config-immowelt-es5.git"
   },
   "keywords": [
     "eslint",
@@ -36,6 +36,6 @@
     "@inkdpixels/commit-analyzer": "1.0.1",
     "@inkdpixels/release-notes-generator": "1.0.1",
     "jest": "22.3.0",
-    "semantic-release": "12.4.1"
+    "semantic-release": "^12.4.1"
   }
 }
