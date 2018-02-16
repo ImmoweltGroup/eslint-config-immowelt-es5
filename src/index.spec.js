@@ -9,9 +9,9 @@ describe('eslint-config-immowelt-es5', () => {
   });
 
   it('should not throw errors when checking a valid code fixture.', () => {
-    const errors = runEslint(`var x = true;
+    const errors = runEslint(`var foo = true;
 
-if (x) {
+if (foo) {
   console.warn('warning');
 }
 
