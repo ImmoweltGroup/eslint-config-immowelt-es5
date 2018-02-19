@@ -22,20 +22,17 @@
   "scripts": {
     "lint": "eslint \"src/**/*.js\"",
     "test": "jest",
-    "release": "semantic-release pre && npm publish --access=public && semantic-release post"
+    "semantic-release": "semantic-release"
   },
-  "release": {
-    "analyzeCommits": "@inkdpixels/commit-analyzer",
-    "generateNotes": "@inkdpixels/release-notes-generator"
+  "publishConfig": {
+    "access": "public"
   },
   "dependencies": {
     "eslint": "^4.17.0",
     "eslint-plugin-jest": "^21.12.1"
   },
   "devDependencies": {
-    "@inkdpixels/commit-analyzer": "1.0.1",
-    "@inkdpixels/release-notes-generator": "1.0.1",
     "jest": "22.3.0",
-    "semantic-release": "8.2.3"
+    "semantic-release": "12.4.1"
   }
 }
