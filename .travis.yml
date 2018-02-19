@@ -13,7 +13,7 @@ script:
   - yarn lint
   - yarn test --coverage
 after_success:
-  - yarn run release
+  - yarn run semantic-release
 branches:
   except:
     - /^v\d+\.\d+\.\d+$/
