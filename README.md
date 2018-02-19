@@ -29,19 +29,7 @@ Then create a file named `.eslintrc` with following contents in the root folder 
 
 # Commit guidelines and semantic release
 
-Our repositories make great use of semantic-release. This tool automatically creates releases once the code is pushed to our master branch and the commits signal a release-worthy CI run.
-
-All commits must contain a prefix of one of the following values, e.g.
-
-| Prefix        | Description     | Release type  |
-| ------------- | --------------- | ------------- |
-| `!!!`         | Breaking change | Major         |
-| `FEATURE`     | Feature         | Minor         |
-| `BUGFIX`      | Bugfix          | Patch         |
-| `SECURITY`    | Security change | Patch         |
-| `TASK`        | Other changes   | No release    |
-
-So in case you want to submit a bugfix, you should execute git commit -m "BUGFIX: A short description of what this commit solves - solves #21" where 21 is the issue number of the bug you fix.
+Our repositories make great use of [semantic-release](https://semantic-release.gitbooks.io/semantic-release/content/#how-does-it-work). Please follow the release guidelines. 
 
 ## Licensing
 See the `LICENSE` file at the root of the repository.
